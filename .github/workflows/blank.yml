@@ -4,8 +4,10 @@ import os
 import sys
 
 class Mahasiswa:
-        nim= "212370047"
+        nim= "212370047, 212370002, 212370004"
         nama= "Syifaa Salsabiila Putri"
+              "Dessry Cantika Lase"
+              "Siti Aisyah Daswin"
 pilih = 0
 dataSiswa = []
 
