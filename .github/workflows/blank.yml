@@ -47,3 +47,25 @@ elif pilih == 3 :
     else : print("Nim Tidak Ditemukan")
     input("Kembali Ke Menu Utama")
     Menu()
+Menu()
+elif pilih == 5 : 
+    Author()
+    input("\n\n Kembali Ke Menu Utama")
+    Menu()
+elif pilih == 6 :
+    sys.exit()
+    
+def tampil():
+    os.system('clear');
+    print("DATA MAHASISWA")
+    for Data in dataSiswa:
+        print("Nim : "+str(siswa.Nim))
+        print("Nama : "+ siswa.Nama)
+        print("----------------------------")
+    
+def Author():    
+    os.system('clear');
+    print("Syifaa Salsabiila Putri")
+    print("Dessry Cantika Lase")
+    Print("Siti Aisyah Daswin")
+    print("UNHAR")
