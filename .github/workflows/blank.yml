@@ -69,3 +69,15 @@ def Author():
     print("Dessry Cantika Lase")
     Print("Siti Aisyah Daswin")
     print("UNHAR")
+def pilih1():
+    ulang = 'Y'
+    while ulang in("y", "Y"):
+        os.system('clear');
+        siswaBaru = MAHASISWA()
+        print("Input Data Mahasiswa ")
+        siswaBaru.Nim = (int(Input("Masukkan Nim : ")))
+        siswaBaru.Nama = (Input("Masukkan Nama Siswa : "))
+        dataSiswa.append(siswaBaru)
+        ulang = input ("Apakah Anda Ingin Mengulang (Y/T)? ")
+
+Menu()
